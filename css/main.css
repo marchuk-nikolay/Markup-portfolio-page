@@ -498,3 +498,172 @@ input[type="submit"] {
 .youtube {
 	background-position: -93px 0;
 }
+
+/*Media-queries*/
+@media screen and (max-width: 960px) {
+	#wrapper {
+		width: 85%;
+	} 
+}
+
+@media screen and (max-width: 781px) {
+	#hello, #tagline {
+		font-size: 36px;
+	}
+
+	.first-col, .second-col, .third-col, .fourth-col {
+		width: 33.3%;
+	}
+
+	.clear {
+		clear: none;
+	}
+}
+
+@media screen and (max-width: 704px) {
+	#hello, #tagline {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 676px) {
+	.list, #about-me {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 636px) {
+	#my-photo {
+		width: 90px;
+	}	
+}
+
+@media screen and (max-width: 627px) {
+	#tagline {
+		margin: 0 16%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	#hello, #tagline {
+		font-size: 28px;
+	}
+
+	#tagline {
+		margin: 0 14%;
+	}
+
+	#my-photo {
+		width: 70px;
+	}
+
+	#info-about-me > .row > .col-right > .inner > .row > .col {
+		width: 100%;
+	}
+
+	#info-about-me > .row > .col-right > .inner > .row > .col-left {
+		margin-bottom: 10px;
+	}
+
+	#info-about-me > .row > .col-right > .inner > .row > .col-right > .inner {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#logo {
+		margin: 0 auto;
+	}
+
+	#logo:after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+
+	#header-navigation {
+		margin-top: 15px;
+		margin-left: 25%;
+		clear: both;
+		float: none;
+	}
+	
+	#hello, #tagline {
+		font-size: 26px;
+	}
+
+	#tagline {
+		margin: 0 12%;
+	}
+
+	#greeting {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	#info-about-me > .row > .col, #say-hi, #other-info {
+		width: 100%;
+	}
+
+	#info-about-me > .row > .col-left, #say-hi > .inner {
+		margin-bottom: 10px;
+	}
+
+	#info-about-me > .row > .col-right > .inner, #other-info > .inner {
+		margin-left: 0;
+	}
+
+	.first-col, .second-col, .third-col, .fourth-col {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	#header-navigation {
+		margin-left: 23%;
+	}
+}
+
+@media screen and (max-width: 422px) {
+	#tagline {
+		margin: 0 9%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#header-navigation {
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 393px) {
+	#hello, #tagline {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	#header-navigation {
+		margin-left: 18%;
+	}
+
+	#tagline {
+		margin: 0 7%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#header-navigation {
+		margin-left: 16%;
+	}
+
+	#hello, #tagline {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#header-navigation {
+		margin-left: 15%;
+	}
+}
